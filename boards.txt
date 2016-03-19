@@ -290,7 +290,7 @@ espduino.menu.FlashSize.4M1M.build.spiffs_blocksize=8192
 espduino.menu.FlashSize.4M1M.build.spiffs_pagesize=256
 
 ##############################################################
-LinkNodeD1.name=LinkNode D1 (ESP-12E Module)
+LinkNodeD1.name=LinkNode D1
 
 LinkNodeD1.upload.tool=esptool
 LinkNodeD1.upload.speed=115200
@@ -305,7 +305,7 @@ LinkNodeD1.build.mcu=esp8266
 LinkNodeD1.build.f_cpu=80000000L
 LinkNodeD1.build.board=ESP8266_ESP12
 LinkNodeD1.build.core=esp8266
-LinkNodeD1.build.variant=nodemcu
+LinkNodeD1.build.variant=linknoded1
 LinkNodeD1.build.flash_mode=dio
 LinkNodeD1.build.flash_size=4M
 LinkNodeD1.build.flash_freq=40
